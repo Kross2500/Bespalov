@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-int main()
+int main()                           //ВАРИАНТ 2
 {
 	int size;  //Ввод значения кол-ва проданных товаров
 	cout<< "Ведите количество проданных товаров: " << endl;
