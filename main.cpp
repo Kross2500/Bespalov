@@ -65,4 +65,8 @@ int main()
 		cout << "Товар " << names[i] << " : кол-во " << amount[i] << ", цена за единицу: " << prices[i] << "\n"; //Вывод товаров,их кол-во и цены за единицу в алфавитном порядке
 	}
 	return 0; 
+    
+    delete(names);         //Очистка памяти
+    delete(amount);
+    delete(prices);   
 }
